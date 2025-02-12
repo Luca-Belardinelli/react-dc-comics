@@ -6,17 +6,6 @@
 }
 
 
-/* REGOLE GENERALI LINK */
-a {
-  color: #4F4A4C;
-  text-decoration: none;
-}
-
-/* REGOLE HOVER PER I LINK */
-ul li a:hover {
-  color: #2B9FFB;
-}
-
 /* HEADER */
 
 header {
@@ -34,4 +23,68 @@ ul li {
   list-style-type: none;
   font-weight: bold;
   margin-left: 25px;
+}
+
+
+/* REGOLE HOVER PER I LINK */
+header ul li a:hover {
+  color: #2B9FFB;
+}
+
+
+/* REGOLE  LINK */
+header a {
+  color: #4F4A4C;
+  text-decoration: none;
+}
+
+
+
+/* MAIN */
+
+#content {
+  height: 100px;
+  width: 100%;
+  background-color: #1C1C1C;
+  display: flex;
+  align-items: center;
+  padding-left: 15%;
+}
+
+
+main h2 {
+  color: white;
+}
+
+/* MAIN SEZIONE MERCHANDISE */
+
+.merchandise {
+  height: 150px;
+  width: 100%;
+  background-color: #0282F9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.shop {
+  display: flex;
+  align-items: center;
+}
+
+.shop img {
+  width: 50px;
+  margin-right: 15px;
+}
+
+.shop span {
+  color: white;
+}
+
+/* FOOTER */
+
+.footer {
+  background-image: url('../public/jumbotron.jpg');
+  background-size: 500px;
 }
