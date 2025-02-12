@@ -1,6 +1,8 @@
 // Footer.jsx
 export default function Main() {
     return (
-        <footer></footer>
+        <footer>
+            <div className="container"></div>
+        </footer>
     );
 }

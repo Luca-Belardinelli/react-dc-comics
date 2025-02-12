@@ -3,7 +3,7 @@ export default function Header() {
     return (
         <header>
             <figure>
-                <img src="/dc-logo.png" alt="Logo" />
+                <img src="./img/dc-logo.png" alt="Logo" />
             </figure>
             <nav>
                 <ul>
