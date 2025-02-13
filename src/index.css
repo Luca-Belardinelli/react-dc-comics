@@ -26,6 +26,9 @@ header ul li {
   margin-left: 25px;
 }
 
+.active {
+  background-color: #d52bfb;
+}
 
 /* REGOLE HOVER PER I LINK */
 header ul li a:hover {
