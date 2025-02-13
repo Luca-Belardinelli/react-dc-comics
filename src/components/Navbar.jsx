@@ -1,7 +1,7 @@
 
 
 export default function Navbar(props) {
-    // const links = props.link;
+    const links = props.link;
 
     return (
         <nav>

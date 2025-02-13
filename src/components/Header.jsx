@@ -1,24 +1,25 @@
 // Header.jsx
-export default function Header() {
+
+
+// IMPORTIAMO NAVBAR
+import Navbar from "./Navbar";
+
+// ESPORTO FUNZIONE HEADER
+export default function Header(props) {
+
+
+    const { link } = props;
+
+
     return (
         <header>
+
             <figure>
                 <img src="./img/dc-logo.png" alt="Logo" />
             </figure>
-            <nav>
-                <ul>
-                    <li><a href="#">CHARACTERS</a></li>
-                    <li className="active"><a href="#">COMICS</a></li>
-                    <li><a href="#">MOVIES</a></li>
-                    <li><a href="#">TV</a></li>
-                    <li><a href="#">GAMES</a></li>
-                    <li><a href="#">COLLECTIBLES</a></li>
-                    <li><a href="#">VIDEOS</a></li>
-                    <li><a href="#">FANS</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">SHOP</a></li>
-                </ul>
-            </nav>
+
+
+            <Navbar link={link} />
         </header>
     );
 }
