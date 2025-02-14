@@ -169,6 +169,11 @@ export default function ComicsList() {
         {renderComics()}
       </div>
 
+      {/* <div className="read">
+        <button className="more">LOAD MORE</button>
+      </div> */}
+
+
     </section>
   );
 
