@@ -2,7 +2,8 @@
 export default function Main() {
     return (
         <main>
-            <section id="content"><h2> -- Content goes here -- </h2></section>
+            <section id="jumbo"></section>
+            <section id="content"></section>
             <section className="merchandise">
                 <div className="shop">
                     <img src="../img/buy-comics-digital-comics.png" alt="" />
