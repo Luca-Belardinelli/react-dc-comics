@@ -1,9 +1,19 @@
 // Main.jsx
+
+
+import ComicsList from "./products/ComicsList.jsx";
+
+
+
+
+
+
+
 export default function Main() {
     return (
         <main>
             <section id="jumbo"></section>
-            <section id="content"></section>
+            <section id="content"><ComicsList /></section>
             <section className="merchandise">
                 <div className="shop">
                     <img src="../img/buy-comics-digital-comics.png" alt="" />
