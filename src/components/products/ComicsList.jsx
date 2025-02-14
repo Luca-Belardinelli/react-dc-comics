@@ -159,7 +159,7 @@ export default function ComicsList() {
   ];
 
   function renderComics() {
-    return comics.map(comics => <ComicsCard key={comics.id} comicsTitle={comics.title} comicsThumb={comics.thumb} />)
+    return comics.map(comics => <ComicsCard key={comics.id} comicsSeries={comics.series} comicsThumb={comics.thumb} />)
   }
 
   return (
