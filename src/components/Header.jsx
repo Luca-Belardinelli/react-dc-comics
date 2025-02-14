@@ -8,7 +8,6 @@ import Navbar from "./Navbar";
 export default function Header(props) {
 
 
-    const { link } = props;
 
 
     return (
@@ -19,7 +18,7 @@ export default function Header(props) {
             </figure>
 
 
-            <Navbar link={link} />
+            <Navbar links={props.links} />
         </header>
     );
 }

@@ -24,7 +24,7 @@ function App(props) {
 
   return (
     <>
-      <Header link={links} />
+      <Header links={links} />
       <Main />
       <Footer />
     </>
