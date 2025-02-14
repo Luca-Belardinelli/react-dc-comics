@@ -73,7 +73,7 @@ header a {
 
 .comicscontainer img {
   width: 100%;
-  height: 200px;
+  height: 400px;
   object-fit: cover;
   object-position: top;
   clip-path: inset(0 10px 10% 10px);
