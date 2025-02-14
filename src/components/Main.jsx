@@ -13,7 +13,7 @@ export default function Main() {
     return (
         <main>
             <section id="jumbo"></section>
-            <section id="content"><ComicsList /></section>
+            <ComicsList />
             <section className="merchandise">
                 <div className="shop">
                     <img src="../img/buy-comics-digital-comics.png" alt="" />
